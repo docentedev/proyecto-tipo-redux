@@ -6,7 +6,7 @@ const mockData = {
         const d = mockData.get()
         d.push(data)
         window.localStorage.setItem('todos', JSON.stringify(d))
-        return d
+        return data
     }
 }
 
